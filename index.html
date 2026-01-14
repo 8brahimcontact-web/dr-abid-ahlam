@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Abid Ahlam | Cabinet Médical</title>
+  <meta name="description" content="Cabinet médical du Dr. Abid Ahlam. Consultations sur rendez-vous, services, horaires et contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="dot"></span>
+        <span>Consultations sur rendez-vous</span>
+      </div>
+      <div class="topbar-right">
+        <a class="topbar-link" href="tel:+212600000000">📞 +212 6 00 00 00 00</a>
+        <span class="sep">|</span>
+        <a class="topbar-link" href="mailto:contact@cabinet.ma">✉️ contact@cabinet.ma</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Accueil">
+        <span class="brand-mark">Dr</span>
+        <span class="brand-text">ABID AHLAM</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Ouvrir le menu</span>
+          <span class="burger"></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#services">Services</a>
+          <a href="#about">À propos</a>
+          <a href="#hours">Horaires</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-primary" href="#contact">Prendre RDV</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="badge">Cabinet médical • Soins & Suivi</p>
+        <h1>Une prise en charge professionnelle, humaine et rigoureuse.</h1>
+        <p class="lead">
+          Bienvenue au cabinet du <strong>Dr. Abid Ahlam</strong>. Consultations sur rendez-vous,
+          accompagnement, prévention et suivi personnalisé.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Prendre rendez-vous</a>
+          <a class="btn btn-ghost" href="#services">Voir les services</a>
+        </div>
+
+        <div class="trust">
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <div>
+              <div class="trust-title">Écoute & clarté</div>
+              <div class="trust-sub">Explications simples</div>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">⏱</div>
+            <div>
+              <div class="trust-title">Ponctualité</div>
+              <div class="trust-sub">RDV bien organisés</div>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🛡</div>
+            <div>
+              <div class="trust-title">Confidentialité</div>
+              <div class="trust-sub">Respect total</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card">
+          <div class="card-header">
+            <h2>Informations rapides</h2>
+            <p>Tout ce qu’il faut, en un coup d’œil.</p>
+          </div>
+
+          <div class="card-body">
+            <div class="info">
+              <div class="info-row">
+                <span class="k">Adresse</span>
+                <span class="v">[Votre adresse ici], Maroc</span>
+              </div>
+              <div class="info-row">
+                <span class="k">Téléphone</span>
+                <a class="v link" href="tel:+212600000000">+212 6 00 00 00 00</a>
+              </div>
+              <div class="info-row">
+                <span class="k">Email</span>
+                <a class="v link" href="mailto:contact@cabinet.ma">contact@cabinet.ma</a>
+              </div>
+              <div class="info-row">
+                <span class="k">Horaires</span>
+                <span class="v">Lun–Ven • 09:00–18:00</span>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <a class="btn btn-primary btn-block" href="#contact">Demander un RDV</a>
+            <p class="tiny">Réponse rapide (selon disponibilité).</p>
+          </div>
+        </div>
+
+        <div class="hero-note">
+          <div class="note-icon">ℹ️</div>
+          <div>
+            <strong>Astuce :</strong> Remplace les infos (téléphone, adresse, email) par celles du client.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>Services</h2>
+        <p>Des soins structurés, avec une approche de qualité et de suivi.</p>
+      </div>
+
+      <div class="grid cards">
+        <article class="service">
+          <h3>Consultation & Diagnostic</h3>
+          <p>Évaluation complète, diagnostic, et plan de prise en charge adapté.</p>
+          <ul>
+            <li>Écoute attentive</li>
+            <li>Examen clinique</li>
+            <li>Orientation si nécessaire</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Suivi & Prévention</h3>
+          <p>Suivi régulier, prévention et conseils pratiques pour une meilleure santé.</p>
+          <ul>
+            <li>Bilans</li>
+            <li>Suivi personnalisé</li>
+            <li>Conseils hygiène de vie</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Certificats & Documents</h3>
+          <p>Rédaction selon besoin médical, dans le respect des règles.</p>
+          <ul>
+            <li>Certificats médicaux</li>
+            <li>Comptes rendus</li>
+            <li>Attestations</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Conseils & Orientation</h3>
+          <p>Quand c’est utile, orientation vers spécialiste ou examens complémentaires.</p>
+          <ul>
+            <li>Parcours de soins</li>
+            <li>Coordination</li>
+            <li>Réseau médical</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section-alt" id="about">
+    <div class="container about">
+      <div>
+        <div class="section-head left">
+          <h2>À propos du cabinet</h2>
+          <p>Un espace pensé pour le confort, la confidentialité et l’efficacité.</p>
+        </div>
+
+        <div class="about-points">
+          <div class="point">
+            <div class="point-icon">🏥</div>
+            <div>
+              <h3>Environnement professionnel</h3>
+              <p>Cabinet calme, propre, et organisé pour un accueil de qualité.</p>
+            </div>
+          </div>
+          <div class="point">
+            <div class="point-icon">🧾</div>
+            <div>
+              <h3>Transparence</h3>
+              <p>Informations claires sur les étapes et la prise en charge.</p>
+            </div>
+          </div>
+          <div class="point">
+            <div class="point-icon">🤝</div>
+            <div>
+              <h3>Relation de confiance</h3>
+              <p>Une approche humaine, avec respect et confidentialité.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="panel">
+        <h3>Pourquoi choisir ce cabinet ?</h3>
+        <p>
+          Parce que vous méritez une consultation sérieuse, une écoute réelle et un suivi efficace.
+        </p>
+        <div class="panel-stats">
+          <div class="stat">
+            <div class="stat-n">100%</div>
+            <div class="stat-l">Confidentialité</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n">+</div>
+            <div class="stat-l">Suivi personnalisé</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n">✓</div>
+            <div class="stat-l">Approche moderne</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Hours -->
+  <section class="section" id="hours">
+    <div class="container">
+      <div class="section-head">
+        <h2>Horaires</h2>
+        <p>Vous pouvez ajuster ces horaires selon le cabinet.</p>
+      </div>
+
+      <div class="hours">
+        <div class="hours-row"><span>Lundi</span><span>09:00 – 18:00</span></div>
+        <div class="hours-row"><span>Mardi</span><span>09:00 – 18:00</span></div>
+        <div class="hours-row"><span>Mercredi</span><span>09:00 – 18:00</span></div>
+        <div class="hours-row"><span>Jeudi</span><span>09:00 – 18:00</span></div>
+        <div class="hours-row"><span>Vendredi</span><span>09:00 – 18:00</span></div>
+        <div class="hours-row"><span>Samedi</span><span>Sur rendez-vous</span></div>
+        <div class="hours-row"><span>Dimanche</span><span>Fermé</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact">
+      <div>
+        <div class="section-head left">
+          <h2>Contact & Rendez-vous</h2>
+          <p>Envoyez une demande. Vous serez recontacté rapidement.</p>
+        </div>
+
+        <div class="contact-cards">
+          <a class="contact-card" href="tel:+212600000000">
+            <div class="cc-ico">📞</div>
+            <div>
+              <div class="cc-title">Téléphone</div>
+              <div class="cc-sub">+212 6 00 00 00 00</div>
+            </div>
+          </a>
+
+          <a class="contact-card" href="mailto:contact@cabinet.ma">
+            <div class="cc-ico">✉️</div>
+            <div>
+              <div class="cc-title">Email</div>
+              <div class="cc-sub">contact@cabinet.ma</div>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://maps.google.com/?q=Casablanca" target="_blank" rel="noreferrer">
+            <div class="cc-ico">📍</div>
+            <div>
+              <div class="cc-title">Adresse</div>
+              <div class="cc-sub">[Votre adresse ici]</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <form class="form" id="rdvForm">
+        <h3>Demande de rendez-vous</h3>
+
+        <div class="form-grid">
+          <label>
+            Nom complet
+            <input name="name" type="text" placeholder="Votre nom" required />
+          </label>
+
+          <label>
+            Téléphone
+            <input name="phone" type="tel" placeholder="+212..." required />
+          </label>
+
+          <label class="full">
+            Email (optionnel)
+            <input name="email" type="email" placeholder="ex: email@mail.com" />
+          </label>
+
+          <label class="full">
+            Motif (optionnel)
+            <input name="reason" type="text" placeholder="Ex: consultation, suivi..." />
+          </label>
+
+          <label class="full">
+            Message
+            <textarea name="message" rows="4" placeholder="Décrivez votre demande..." required></textarea>
+          </label>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit">Envoyer la demande</button>
+        <p class="tiny" id="formHint">
+          En cliquant, un message WhatsApp sera préparé (vous pourrez le valider avant l’envoi).
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">Dr. Abid Ahlam</div>
+        <div class="footer-sub">Cabinet médical • Maroc</div>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">À propos</a>
+        <a href="#hours">Horaires</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/212600000000" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+    💬
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
